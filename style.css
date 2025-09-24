@@ -116,3 +116,32 @@ button{
     max-width: 168px;
     text-align: center;
 }
+
+.quotecont{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    padding: 64px;
+    margin: 48px -10px 48px -10px;
+}
+
+.quotetext{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    position: relative;
+    max-width: 900px;
+    font-style: italic;
+}
+
+.authtext{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: right;
+    padding-left: 800px;
+    font-style: italic;
+}
